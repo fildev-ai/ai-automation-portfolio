@@ -1,12 +1,16 @@
-# ai-automation-portfolio
-AI automation projects built with n8n, Ollama and RAG
-## Hi, I'm Facundo 👋
+# Hi, I'm Facundo 👋
 
-### AI Automation · n8n · Ollama · RAG
+### AI Automation Specialist · n8n · Ollama · RAG
 
-I build automations that classify, organize and route business information using n8n and AI models. I come from factory and logistics work, so I think in processes: where time is lost, what repeats, and what can be automated.
+I build automations that classify, organize and route business information using n8n and AI models, so teams spend less time on repetitive work.
 
 > The systems in this portfolio work with **Spanish-language messages**, because they were designed for Spanish-speaking customers.
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
 
 ## What I build
 
