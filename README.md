@@ -27,7 +27,7 @@ n8n · Ollama (llama3.1, nomic-embed-text) · Docker · Google Sheets · Gmail �
 
 | # | Project | Status |
 |---|---------|--------|
-| 01 | Lead classifier | Documentation in progress |
+| 01 | [Lead classifier](01-lead-classifier) | README ready · workflow and screenshots coming soon |
 | 02 | RAG support bot | Documentation in progress |
 | 03 | Email classifier | Documentation in progress |
 | 04 | Leads CRM with Google Sheets | Documentation in progress |
