@@ -6,7 +6,7 @@ Small businesses receive leads through forms and messages, and someone has to re
 
 ## The solution
 
-An n8n workflow that receives each new lead, uses a local AI model to classify it as **HOT, WARM or COLD**, saves the result in Google Sheets, and sends an instant Telegram alert when the lead is HOT.
+An n8n workflow that receives each new lead, uses a local AI model to classify it as **HOT, WARM or COLD** (labeled CALIENTE, TIBIO and FRIO in the workflow, since the system works in Spanish), saves the result in Google Sheets, and sends an instant Telegram alert when the lead is HOT.
 
 > The system works with **Spanish-language messages**.
 
@@ -25,7 +25,7 @@ n8n · Ollama (llama3.1) · Docker · Google Sheets · Telegram
 
 ## Problems I solved
 
-- **Slow first run:** the local model takes 1-2 minutes to load into memory after days without use. I learned to expect it and warm up the model before testing.
+- **Slow first run:** the local model takes 1-2 minutes to load into memory after days without use. I learned to expect the delay on the first run.
 - **Expiring Google permissions:** while the Google Cloud app is in testing mode, access expires every 7 days. I fixed it by re-authorizing the credential.
 - **Wrong timestamps:** I set the timezone in each workflow's settings so dates match the local time.
 
